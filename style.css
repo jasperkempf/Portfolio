@@ -4,7 +4,7 @@ body, html {
   padding: 0;
   font-family: 'Roboto', sans-serif; /* Body Text */
   font-weight: 400;
-  background: #f9f9f9;
+  background: #010101;
   color: #333;
 }
 
@@ -80,7 +80,7 @@ header nav a {
 }
 
 .btn:hover {
-  background-color: #e65c00;
+  background-color: #6C5CCC;
 }
 
 /* Section */
