@@ -72,5 +72,20 @@ footer {
   section {
     padding: 2rem 1rem;
   }
+  
+  #hero {
+  height: 100vh; /* ganze Bildschirmhöhe */
+  background-image: url('assets/images/bg.png');
+  background-size: cover;       /* Bild skalieren, sodass es den Bereich füllt */
+  background-position: center;  /* zentriert */
+  background-repeat: no-repeat; /* nicht wiederholen */
+  display: flex;                /* für Text-Positionierung */
+  flex-direction: column;
+  justify-content: center;      /* vertikal zentrieren */
+  align-items: center;          /* horizontal zentrieren */
+  color: white;                 /* Textfarbe */
+  text-align: center;
+}
+
 }
 
