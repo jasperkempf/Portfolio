@@ -2,15 +2,21 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Body Text */
+  font-weight: 400;
   background: #f9f9f9;
   color: #333;
 }
 
-/* Links */
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* Überschriften */
+h1, h2, h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
 }
 
 /* Header */
@@ -123,18 +129,4 @@ footer {
 
   #hero {
     height: 60vh;
-    padding: 1rem;
-  }
-
-  #hero h1 {
-    font-size: 4.8rem;
-  }
-
-  #hero h2 {
-    font-size: 1.2rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-}
+    padding
