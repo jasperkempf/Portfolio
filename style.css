@@ -45,7 +45,7 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: white;
   text-align: left;
   padding: 0 2rem;
@@ -67,9 +67,22 @@ header nav a {
   z-index: 2;
 }
 
+#hero h1 {
+  font-size: 3rem;   /* ca. 48px */
+}
+
+#hero h2 {
+  font-size: 2rem;   /* ca. 32px */
+}
+
+#hero p {
+  font-size: 1.2rem; /* optional für Fließtext */
+  max-width: 600px;  /* sorgt dafür, dass Text nicht zu breit wird */
+}
+
 /* Button */
 .btn {
-  background-color: #FF6600;
+  background-color: #61CE70;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
