@@ -2,7 +2,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #f9f9f9;
   color: #333;
 }
@@ -127,7 +127,7 @@ footer {
   }
 
   #hero h1 {
-    font-size: 1.8rem;
+    font-size: 4.8rem;
   }
 
   #hero h2 {
