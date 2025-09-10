@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekt 1: Game Soundscape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Projekt 1: Game Soundscape</h1>
+    <nav>
+      <a href="index.html">← Zurück zur Übersicht</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Projektbeschreibung</h2>
+      <p>In diesem Projekt habe ich eine atmosphärische Soundscape für ein Adventure-Game erstellt. Ziel war es, mit modularen Loops und interaktiven Triggern eine immersive Umgebung zu schaffen.</p>
+    </section>
+
+    <section>
+      <h2>Video</h2>
+      <video controls width="800">
+        <source src="assets/videos/projekt1.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Tag nicht.
+      </video>
+    </section>
+
+    <section>
+      <h2>Technologien & Tools</h2>
+      <ul>
+        <li>Ableton Live</li>
+        <li>FMOD für Game-Integration</li>
+        <li>Max/MSP für Soundgenerierung</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Zurück zum Portfolio</a></p>
+  </footer>
+
+</body>
+</html>
 
