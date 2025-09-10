@@ -134,7 +134,7 @@ footer {
 
 .project-card {
   background: white;
-  border-radius: 0px;
+  border-radius: 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   overflow: hidden;
   text-align: center;
