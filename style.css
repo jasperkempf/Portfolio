@@ -165,6 +165,11 @@ footer {
   display: block;
 }
 
+.project-card {
+  max-width: 300px; /* maximale Breite pro Card */
+  margin: 0 auto;   /* Card im Grid zentrieren */
+}
+
 .project-card h3 {
   margin: 1rem;
   font-size: 1.2rem;
