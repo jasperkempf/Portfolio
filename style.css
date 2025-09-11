@@ -13,6 +13,13 @@ a {
   color: inherit;
 }
 
+/* container */
+.container {
+  max-width: 1200px;   /* Gesamtbreite */
+  margin: 0 auto;      /* zentrieren */
+  padding: 0 1rem;     /* etwas Rand innen für kleinere Screens */
+}
+
 /* Überschriften */
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
