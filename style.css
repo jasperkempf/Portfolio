@@ -139,6 +139,13 @@ footer {
   gap: 2rem;
 }
 
+.project-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* immer 3 Cards nebeneinander */
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
 .project-card {
   background: white;
   border-radius: 0;
