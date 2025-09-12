@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif; /* Body Text */
-  font-weight: 400;
+  font-weight: 300;
   background: #010101;
   color: #333;
 }
@@ -17,7 +17,7 @@ a {
 .container {
   max-width: 1200px;   /* Gesamtbreite */
   margin: 0 auto;      /* zentrieren */
-  padding: 0 1rem;     /* etwas Rand innen für kleinere Screens */
+  padding: 0 0.5rem;     /* etwas Rand innen für kleinere Screens */
 }
 
 /* Überschriften */
@@ -117,7 +117,7 @@ section {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 2px;
 }
 
 audio, video {
@@ -136,12 +136,12 @@ footer {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 /* Kategorie-Überschrift */
 .category {
-  margin-bottom: 1rem;
+  margin-bottom: 2px;
 }
 
 .category h2 {
