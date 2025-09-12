@@ -1,0 +1,65 @@
+/* Container für zentrierte Breite */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Kategorie-Überschrift */
+.category {
+  margin-bottom: 4rem;
+}
+
+.category h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+/* Grid für Projekt-Cards */
+.project-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Cards nebeneinander */
+  gap: 1.5rem;
+}
+
+/* Projekt-Cards */
+.project-card {
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Bilder in Cards */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* gleiche Größe */
+}
+
+/* Titel in Cards */
+.project-card h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsives Verhalten */
+@media (max-width: 900px) {
+  .project-row {
+    grid-template-columns: repeat(2, 1fr); /* Tablet: 2 Cards pro Reihe */
+  }
+}
+
+@media (max-width: 600px) {
+  .project-row {
+    grid-template-columns: 1fr; /* Handy: 1 Card pro Reihe */
+  }
+}
