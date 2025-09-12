@@ -155,7 +155,7 @@ footer {
 .project-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 Cards nebeneinander */
-  gap: 0.1rem;
+  gap: 2px;
 }
 
 /* Projekt-Cards */
