@@ -87,6 +87,11 @@ header nav a {
   max-width: 600px;  /* sorgt dafür, dass Text nicht zu breit wird */
 }
 
+section {
+  margin: 0; /* keine Standardabstände */
+  padding: 0; /* enger anliegend */
+}
+
 /* Button */
 .btn {
   background-color: #1E1E1E;
@@ -175,7 +180,7 @@ footer {
 /* Bilder in Cards */
 .project-card img {
   width: 100%;
-  height: auto;
+  height: 400px;
   object-fit: cover; /* gleiche Größe */
 }
 
