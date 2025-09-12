@@ -108,14 +108,9 @@ section {
   background-color: #6C5CCC;
 }
 
-/* Section */
-section {
-  padding: 4rem 2rem;
-}
-
 /* Projekte */
 .project {
-  margin-bottom: 3rem;
+  margin-bottom: 2px;
 }
 
 .project img {
